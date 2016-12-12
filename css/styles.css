@@ -1,0 +1,157 @@
+/*font-family: 'Oxygen', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+/*@media screen and (max-device-width: 480px) {
+h3 { font-size: 1.2em;
+}*/
+/*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+
+}*/
+body {
+  margin:0;
+}
+
+.header {
+  display: flex;
+  height: 10vw;
+  width: 100%;
+  /*border-bottom: 1px solid black;*/
+  background-color: white;
+  font-family: 'Questrial', sans-serif;
+  align-items: center;
+}
+
+.container-logo {
+  display: flex;
+  margin-left: 1em;
+  height:6vw;
+  width: 24vw;
+  background-color: LightGrey;
+  border-radius: 1em;
+  /*align-items: baseline;*/
+  justify-content: center;
+  margin-left: 0;
+}
+
+/*.containerSmLogo {
+  height:6vw;
+  width: 19vw;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.logo {
+    font-size: 4vw;/*how make this responsive??*/
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    margin:0;
+}
+.container-top {
+  height: auto;
+}
+
+.containerLogoPhoneBoth {
+  display: flex;
+  align-items: baseline;
+  padding-left: 0;
+}
+
+.containerPhone {
+  display: inline-block;
+  padding-left: 2vw;
+  color: LightGrey;
+  font-size: 2.5vw;
+}
+
+.phone {
+  margin-bottom: 0;
+}
+
+.babyBellyOverlay {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  position: absolute;
+  font-size: 10vw;
+  top:16vw;
+  color:white;
+  font-family: 'Questrial', sans-serif;
+  padding-left: 2vw;
+  line-height: 85%;
+  letter-spacing: 96%;
+}
+
+.mainTop {
+  border: 1vw solid white;
+  border-top: 0;
+  height:56vw;
+  padding:0;
+  position: relative;
+}
+
+.mainRight {
+  height:30vw;
+}
+
+.one {
+  background-color: #377E81;
+  border-right: .5vw solid white;
+  border-left: 1vw solid white;
+  border-top: 1vw solid white;
+  border-bottom: .5vw solid white;
+}
+
+.two {
+  background-color: #E20073;
+  border-right: 1vw solid white;
+  border-left: .5vw solid white;
+  border-top: 1vw solid white;
+  border-bottom: .5vw solid white;
+}
+
+.three {
+  background-color: #F76306;
+  border-right: .5vw solid white;
+  border-left: 1vw solid white;
+  border-top: .5vw solid white;
+  border-bottom: 1vw solid white;
+}
+
+.four {
+  background-color: #A89B9B;
+  border-right: 1vw solid white;
+  border-left: .5vw solid white;
+  border-top: .5vw solid white;
+  border-bottom: 1vw solid white;
+}
+
+.containerFooter {
+  font-size: 1vw;
+  height: 5vw;
+  justify-content: center;
+  align-items: center;
+ }
+
+footer {
+  height:5vw;
+  width:100%;
+  background-color: grey;
+  display: flex;
+}
+
+.footerText {
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  vertical-align:baseline;
+}
+
+/*.containerMid {
+  height: 30vw;
+  border: 1px solid grey;
+}*/
