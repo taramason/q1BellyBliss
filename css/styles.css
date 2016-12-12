@@ -1,6 +1,7 @@
 /*font-family: 'Oxygen', sans-serif;
 font-family: 'Questrial', sans-serif;
-font-family: 'Quicksand', sans-serif;*/
+font-family: 'Quicksand', sans-serif;
+font-family: 'Didact Gothic', sans-serif;*/
 /*@media screen and (max-device-width: 480px) {
 h3 { font-size: 1.2em;
 }*/
@@ -49,9 +50,6 @@ body {
     vertical-align: middle;
     margin:0;
 }
-.container-top {
-  height: auto;
-}
 
 .containerLogoPhoneBoth {
   display: flex;
@@ -70,28 +68,49 @@ body {
   margin-bottom: 0;
 }
 
-.babyBellyOverlay {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  position: absolute;
-  font-size: 10vw;
-  top:16vw;
-  color:white;
-  font-family: 'Questrial', sans-serif;
-  padding-left: 2vw;
-  line-height: 85%;
-  letter-spacing: 96%;
-}
-
 .mainTop {
   border: 1vw solid white;
   border-top: 0;
   height:56vw;
   padding:0;
   position: relative;
+}
+
+.babyBellyOverlay {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color:#333;
+}
+h1 {
+  position: absolute;
+  font-size: 10vw;
+  top:26vw;
+  color:white;
+  font-family: 'Didact Gothic', sans-serif;
+  padding-left: 2vw;
+  line-height: 85%;
+  letter-spacing: 96%;
+}
+
+h3 {
+  position: absolute;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 4vw;
+  text-decoration: none;
+}
+
+h5{
+  position: absolute;
+  font-size: 2vw;
+  top:48vw;
+  color:lightGrey;
+  font-family: 'Didact Gothic', sans-serif;
+  padding-left: 2vw;
+  /*line-height: 95%;*/
+  /*letter-spacing: 96%;*/
 }
 
 .mainRight {
@@ -104,6 +123,7 @@ h1 {
   border-left: 1vw solid white;
   border-top: 1vw solid white;
   border-bottom: .5vw solid white;
+  position:relative;
 }
 
 .two {
@@ -133,6 +153,7 @@ h1 {
 .containerFooter {
   font-size: 1vw;
   height: 5vw;
+  display: flex;
   justify-content: center;
   align-items: center;
  }
@@ -142,13 +163,13 @@ footer {
   width:100%;
   background-color: grey;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footerText {
-  align-items: center;
   padding: 0;
   margin: 0;
-  vertical-align:baseline;
 }
 
 /*.containerMid {
