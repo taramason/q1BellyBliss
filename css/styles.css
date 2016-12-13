@@ -8,6 +8,7 @@ h3 { font-size: 1.2em;
 /*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
 
 }*/
+
 body {
   margin:0;
 }
@@ -77,12 +78,16 @@ body {
 }
 
 .babyBellyOverlay {
+  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
+
 a {
-  color:#333;
+  color:black;
+  text-decoration: none;
+
 }
 h1 {
   position: absolute;
@@ -91,8 +96,8 @@ h1 {
   color:white;
   font-family: 'Didact Gothic', sans-serif;
   padding-left: 2vw;
-  line-height: 85%;
-  letter-spacing: 96%;
+  line-height: 90%;
+  letter-spacing: .05em;
 }
 
 h3 {
@@ -150,17 +155,11 @@ h5{
   border-bottom: 1vw solid white;
 }
 
-.containerFooter {
-  font-size: 1vw;
-  height: 5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
 
-footer {
+
+.footerDiv {
+  align-self: flex-end;
   height:5vw;
-  width:100%;
   background-color: grey;
   display: flex;
   justify-content: center;
@@ -168,10 +167,35 @@ footer {
 }
 
 .footerText {
+  text-align: center;
+  font-size: 1vw;
   padding: 0;
   margin: 0;
 }
+/*body { margin:0; padding:0; }*/
+mapBoxContainer {
+  align-items: center;
+}
+#map {
+  position:absolute;
+  top: 20vw;
+  padding: 0;
+}
 
+.mapStyle {
+    display: flex;
+    position: inherit;
+    margin: 0px auto;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    /*padding: 10px;*/
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
 /*.containerMid {
   height: 30vw;
   border: 1px solid grey;

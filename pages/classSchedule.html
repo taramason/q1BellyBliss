@@ -2,29 +2,44 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Oxygen|Questrial|Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css" rel='stylesheet'/>
     <title>BB Class Schedule</title>
   </head>
   <body>
     <nav class="col-sm-12 header">
       <div class="containerLogoPhoneBoth">
-        <div class="container-logo">
+        <div class="container-logo"><a href="../index.html">
             <p class="logo">Belly Bliss</p>
-        </div>
+        </div></a>
           <div class="containerPhone">
             <p class="phone">303 - 399 -1191</p>
           </div>
       </div>
     </nav>
-    <main></main>
+    <main>
+      <div class="mapBoxContainer">
+        <div id="map" class="col-sm-6 mapStyle">
+          <script>
+
+          </script>
+        </div>
+      </div>
+    </main>
     <footer>
-      <div class="containerFooter">
+      <div class="footerDiv navbar-default navbar-fixed-bottom">
+        <div>
         <p class="footerText">Copyright 2016 Tara Mason</p>
       </div>
+      </div>
     </footer>
+    <script type="text/javascript" src="../js/script.js"></script>
   </body>
+
 </html>
