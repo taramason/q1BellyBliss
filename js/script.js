@@ -55,3 +55,9 @@ map.on('load', function () {
     map.addControl(new mapboxgl.GeolocateControl());
     map.addControl(new mapboxgl.NavigationControl());
 });
+
+
+$.get("https://api.aerisapi.com/forecasts/80521?client_id=TkN8FrefoQ9qK0Kc9ffbG&client_secret=JIxkj7ki1JSqck8Mxel9hJGtGfNtSiSD4IaOUwNl", function(weatherObj) {
+  console.log(weatherObj);
+  console.log(weatherObj.response[0].periods[0].weather);
+});
