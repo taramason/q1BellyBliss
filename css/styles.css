@@ -15,12 +15,15 @@ body {
 
 .header {
   display: flex;
-  height: 10vw;
+  height: 8vw;
   width: 100%;
   /*border-bottom: 1px solid black;*/
   background-color: white;
   font-family: 'Questrial', sans-serif;
   align-items: center;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  justify-content: space-between;
 }
 
 .container-logo {
@@ -45,11 +48,13 @@ body {
 
 .logo {
     font-size: 4vw;/*how make this responsive??*/
-    color:white;
+    color:crimson;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     vertical-align: middle;
     margin:0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
 }
 
 .containerLogoPhoneBoth {
@@ -67,12 +72,23 @@ body {
 
 .phone {
   margin-bottom: 0;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+.contact {
+  align-self: flex-end;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-size: 2vw;
+  color:crimson;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .mainTop {
   border: 1vw solid white;
   border-top: 0;
-  height:56vw;
+  border-bottom: 0;
+  /*height:70vh;*/
   padding:0;
   position: relative;
 }
@@ -85,19 +101,23 @@ body {
 }
 
 a {
-  color:black;
+  color:white;
   text-decoration: none;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 
 }
 h1 {
   position: absolute;
   font-size: 10vw;
   top:26vw;
-  color:white;
+  color:dimgrey;
   font-family: 'Didact Gothic', sans-serif;
   padding-left: 2vw;
   line-height: 90%;
-  letter-spacing: .05em;
+  /*letter-spacing: .05em;*/
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
 h3 {
@@ -105,15 +125,21 @@ h3 {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 4vw;
   text-decoration: none;
+  color:white;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
 h5{
   position: absolute;
   font-size: 2vw;
+  font-weight: bold;
   top:48vw;
-  color:lightGrey;
+  color:white;
   font-family: 'Didact Gothic', sans-serif;
   padding-left: 2vw;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
   /*line-height: 95%;*/
   /*letter-spacing: 96%;*/
 }
@@ -155,8 +181,6 @@ h5{
   border-bottom: 1vw solid white;
 }
 
-
-
 .footerDiv {
   align-self: flex-end;
   height:5vw;
@@ -164,6 +188,7 @@ h5{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 1vw solid white;
 }
 
 .footerText {
@@ -172,10 +197,12 @@ h5{
   padding: 0;
   margin: 0;
 }
-/*body { margin:0; padding:0; }*/
+
+/*-------ClassSchedule Page-----------*/
 mapBoxContainer {
   align-items: center;
 }
+
 #map {
   position:absolute;
   top: 20vw;
@@ -186,9 +213,9 @@ mapBoxContainer {
     display: flex;
     position: inherit;
     margin: 0px auto;
-    width: 50%;
+    width: 80%;
     height: 50%;
-    margin-left: 25%;
+    margin-left: 10%;
     /*padding: 10px;*/
     border: 1px solid black;
     border-radius: 3px;
@@ -196,7 +223,26 @@ mapBoxContainer {
     text-align: center;
     color: #fff;
 }
-/*.containerMid {
-  height: 30vw;
-  border: 1px solid grey;
+
+/*-------massage Page-----------*/
+
+/*.rowOne {
+  display:flex-box;
+  border: 1px solid black;
+  height: 10vh;
+  width:2vw;
 }*/
+.colOne {
+  display:flex;
+  border: 1px solid black;
+  height: 40vh;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageOne {
+  display: inline-block;
+  height:80%;
+
+}

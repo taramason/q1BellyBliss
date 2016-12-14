@@ -10,6 +10,7 @@ var map = new mapboxgl.Map({
 });
 
 
+
 map.on('load', function () {
     map.addSource("points", {
         "type": "geojson",
@@ -51,4 +52,6 @@ map.on('load', function () {
             "text-anchor": "top"
         }
     });
+    map.addControl(new mapboxgl.GeolocateControl());
+    map.addControl(new mapboxgl.NavigationControl());
 });
