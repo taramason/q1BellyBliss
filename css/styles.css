@@ -85,6 +85,7 @@ body {
 }
 
 .mainTop {
+  background-image: url("../pictures/pregnant-one.jpg")
   border: 1vw solid white;
   border-top: 0;
   border-bottom: 0;
@@ -108,7 +109,7 @@ a {
 
 }
 h1 {
-  position: absolute;
+  position:absolute;
   font-size: 10vw;
   top:26vw;
   color:dimgrey;
@@ -135,7 +136,7 @@ h5{
   font-size: 2vw;
   font-weight: bold;
   top:48vw;
-  color:white;
+  color:dimgrey;
   font-family: 'Didact Gothic', sans-serif;
   padding-left: 2vw;
   -webkit-font-smoothing:antialiased;
@@ -198,7 +199,7 @@ h5{
   margin: 0;
 }
 
-/*-------ClassSchedule Page-----------*/
+/*-------ClassSchedule Map Page-----------*/
 mapBoxContainer {
   align-items: center;
 }
@@ -224,6 +225,13 @@ mapBoxContainer {
     color: #fff;
 }
 
+.weatherContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-top: 3vh;
+}
+
 /*-------massage Page-----------*/
 
 /*.rowOne {
@@ -234,15 +242,32 @@ mapBoxContainer {
 }*/
 .colOne {
   display:flex;
-  border: 1px solid black;
-  height: 40vh;
-  width:100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 35vh;
+  align-self: center;
   justify-content: center;
   align-items: center;
 }
 
 .imageOne {
   display: inline-block;
-  height:80%;
+  height:50%;
 
+}
+.shoppingItems {
+margin:0;
+}
+.shoppingCart {
+margin:0;
+margin-top: 1vw
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+
+}
+.btn-group {
+  margin: 1vw;
 }

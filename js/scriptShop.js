@@ -48,6 +48,11 @@ $(document).ready(function(){
   })
 })
 
+$(".clear").on("click", function() {
+  localStorage.clear();
+  $(".shoppingCart").empty();
+});
+
 //
 // JSON.parse() methods:
 // var car = {};
