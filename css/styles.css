@@ -76,22 +76,32 @@ body {
   -moz-osx-font-smoothing:grayscale;
 }
 .contact {
+  width: auto;
   align-self: flex-end;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   font-size: 2vw;
   color:crimson;
   font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1vh;
+  padding: 0;
+  margin:0;
 }
 
 .mainTop {
   background-image: url("../pictures/pregnant-one.jpg")
   border: 1vw solid white;
   border-top: 0;
-  border-bottom: 0;
-  /*height:70vh;*/
   padding:0;
   position: relative;
+  height: auto;
+  border-bottom: 2vh;
+
+}
+
+.containerTop {
+  height: auto;
+  border-bottom: 2vh;
 }
 
 .babyBellyOverlay {
@@ -111,7 +121,7 @@ a {
 h1 {
   position:absolute;
   font-size: 10vw;
-  top:16vh;
+  top:14vw;
   color:dimgrey;
   font-family: 'Didact Gothic', sans-serif;
   padding-left: 2vw;
@@ -146,8 +156,15 @@ h5{
 }
 
 .bellyLeft {
-  height: 100vh;
+  height:auto;
 }
+
+.rightContainer {
+  /*display: flex;*/
+  justify-content: flex-start;
+
+}
+
 .mainRight {
   height:30vw;
   padding: 0;
@@ -192,11 +209,6 @@ h5{
   display: flex;
   background-color: red;
 }
-/*
-.row {
-  display:block;
-
-}*/
 
 .footerDiv {
   align-self: flex-end;
@@ -217,9 +229,12 @@ h5{
 
 .shadow  { transition: all .2s ease-in-out; }
 .shadow:hover { transform: scale(1.1); }
-  /*-webkit-box-shadow: 4px 4px 3px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 4px 4px 3px 1px rgba(0,0,0,0.75);
-box-shadow: 4px 4px 3px 1px rgba(0,0,0,0.75);*/
+
+@media screen and (min-width: 1200px) {
+  .mainRight {
+    height:15vw;
+    }
+}
 
 
 /*-------ClassSchedule Map Page-----------*/
@@ -240,7 +255,6 @@ mapBoxContainer {
     width: 80%;
     height: 50%;
     margin-left: 10%;
-    /*padding: 10px;*/
     border: 1px solid black;
     border-radius: 3px;
     font-size: 12px;
@@ -259,19 +273,8 @@ mapBoxContainer {
   padding-top: 4vw;
 }
 
+/*-------Shop Page-----------*/
 
-/*p {
-padding-top: 2vh;
-}*/
-
-/*-------massage Page-----------*/
-
-/*.rowOne {
-  display:flex-box;
-  border: 1px solid black;
-  height: 10vh;
-  width:2vw;
-}*/
 .colOne {
   display:flex;
   border-top: 1px solid black;
@@ -290,6 +293,7 @@ padding-top: 2vh;
 .shoppingItems {
 margin:0;
 }
+
 .shoppingCart {
 margin:0;
 margin-top: 1vw
