@@ -111,7 +111,7 @@ a {
 h1 {
   position:absolute;
   font-size: 10vw;
-  top:26vw;
+  top:16vh;
   color:dimgrey;
   font-family: 'Didact Gothic', sans-serif;
   padding-left: 2vw;
@@ -135,7 +135,7 @@ h5{
   position: absolute;
   font-size: 2vw;
   font-weight: bold;
-  top:48vw;
+  top:36vw;
   color:dimgrey;
   font-family: 'Didact Gothic', sans-serif;
   padding-left: 2vw;
@@ -145,42 +145,58 @@ h5{
   /*letter-spacing: 96%;*/
 }
 
+.bellyLeft {
+  height: 100vh;
+}
 .mainRight {
   height:30vw;
+  padding: 0;
+  margin: 0;
 }
 
 .one {
   background-color: #377E81;
-  border-right: .5vw solid white;
+  /*margin: .1vw;*/
+  /*border-right: .5vw solid white;
   border-left: 1vw solid white;
   border-top: 1vw solid white;
-  border-bottom: .5vw solid white;
+  border-bottom: .5vw solid white;*/
   position:relative;
 }
 
 .two {
   background-color: #E20073;
-  border-right: 1vw solid white;
+  /*border-right: 1vw solid white;
   border-left: .5vw solid white;
   border-top: 1vw solid white;
-  border-bottom: .5vw solid white;
+  border-bottom: .5vw solid white;*/
 }
 
 .three {
   background-color: #F76306;
-  border-right: .5vw solid white;
+  /*border-right: .5vw solid white;
   border-left: 1vw solid white;
   border-top: .5vw solid white;
-  border-bottom: 1vw solid white;
+  border-bottom: 1vw solid white;*/
 }
 
 .four {
   background-color: #A89B9B;
-  border-right: 1vw solid white;
+  /*border-right: 1vw solid white;
   border-left: .5vw solid white;
   border-top: .5vw solid white;
-  border-bottom: 1vw solid white;
+  border-bottom: 1vw solid white;*/
 }
+
+.five {
+  display: flex;
+  background-color: red;
+}
+/*
+.row {
+  display:block;
+
+}*/
 
 .footerDiv {
   align-self: flex-end;
@@ -198,6 +214,13 @@ h5{
   padding: 0;
   margin: 0;
 }
+
+.shadow  { transition: all .2s ease-in-out; }
+.shadow:hover { transform: scale(1.1); }
+  /*-webkit-box-shadow: 4px 4px 3px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 3px 1px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 3px 1px rgba(0,0,0,0.75);*/
+
 
 /*-------ClassSchedule Map Page-----------*/
 mapBoxContainer {
@@ -231,6 +254,15 @@ mapBoxContainer {
   text-align: center;
   border-top: 3vh;
 }
+
+.weatherP {
+  padding-top: 4vw;
+}
+
+
+/*p {
+padding-top: 2vh;
+}*/
 
 /*-------massage Page-----------*/
 

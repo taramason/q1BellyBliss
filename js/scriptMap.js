@@ -66,5 +66,5 @@ $.get("https://api.aerisapi.com/forecasts/80521?client_id=TkN8FrefoQ9qK0Kc9ffbG&
   console.log(denverWeather);
   console.log(denverMaxF);
   console.log(denverMinF);
-  $(".weatherContainer").append("<p> The current weather for Denver is: " + denverWeather + " and a Max temp of " + denverMaxF + " degrees F. </p>");
+  $(".weatherContainer").append("<div class="+'weatherP'+"><p> Todays weather for Denver is: " + denverWeather + ", a max temp of " + denverMaxF + " degrees F. </p></div>");
 });
