@@ -110,6 +110,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.rightContainer {
+  padding: 0;
+  display: inline-block;
+}
 
 a {
   color:white;
@@ -119,7 +123,7 @@ a {
 
 }
 h1 {
-  position:absolute;
+  position:relative;
   font-size: 10vw;
   top:14vw;
   color:dimgrey;
@@ -213,6 +217,7 @@ h5{
 .footerDiv {
   align-self: flex-end;
   height:5vw;
+  width: 100vw;
   background-color: grey;
   display: flex;
   justify-content: center;
